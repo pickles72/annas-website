@@ -1,0 +1,19 @@
+.height-full {
+    height: 100vh;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+
+.bg-default {
+    background-color: #6667AB;
+}
+
+.icon-primary {
+    color: #CDCDCD;
+}
