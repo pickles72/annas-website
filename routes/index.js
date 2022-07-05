@@ -8,5 +8,9 @@ router.get('/', (req, res) => {
     res.render('index', { title: 'Home' });
 });
 
+router.get('/gallery', (req, res) => {
+    res.render('gallery', { title: 'Gallery' });
+});
+
 
 module.exports = router;

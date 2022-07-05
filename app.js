@@ -13,6 +13,7 @@ app.set('view engine', 'pug');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
+app.use('/scripts', express.static(__dirname + '/node_modules/masonry-layout/dist/'));
 
 app.use('/', routes);
 
