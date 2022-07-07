@@ -2,7 +2,7 @@ extends layout
 
 block content
   .container.bg-default
-    .row
-        .col
-            a#name(href="#")
-                img(title="Hello", src="/img/splash_0.png", onmouseover="this.src='/img/splash_1.png'" onmouseout="/img/this.src='splash_0.png'")
+    .row.justify-content-center
+        .col-4
+            a#name(href="/")
+                img.img-fluid(title="Hello", src="/img/splash_0.png", onmouseover="this.src='/img/splash_1.png'", onmouseout="this.src='/img/splash_0.png'")
