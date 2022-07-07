@@ -12,5 +12,8 @@ router.get('/gallery', (req, res) => {
     res.render('gallery', { title: 'Gallery' });
 });
 
+router.get('/splash', (req, res) => {
+    res.render('splash', { title: 'Splash' });
+});
 
 module.exports = router;
